@@ -12,7 +12,7 @@ $(document).ready(function(){
 
         const enderecoSDaNovaImagem = $('#endereco-imagem-nova').val();
         const novoItem = $("<li></li>");
-        $(`<img src=`)
+        $(`<img src='${enderecoSDaNovaImagem}' />`).appendTo(novoItem)
     })
 })
 
