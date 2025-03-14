@@ -13,6 +13,7 @@ $(document).ready(function(){
         const enderecoSDaNovaImagem = $('#endereco-imagem-nova').val();
         const novoItem = $("<li></li>");
         $(`<img src='${enderecoSDaNovaImagem}' />`).appendTo(novoItem)
+        $(`<div class="overlay-imagem-link><a href="${enderecoSDaNovaImagem} target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a></div>`).appendTo(novoItem)
     })
 })
 
